@@ -24,6 +24,11 @@ namespace Full_GRASP_And_SOLID
         {
             this.steps.Remove(step);
         }
+        public void AddStep(Product input, double quantity, Equipment, equipment, int time)
+        {
+            Step step= new Step(input, quantity, equipment, time);
+            steps.add(Step);
+        }
 
         // Agregado por SRP
         public string GetTextToPrint()
